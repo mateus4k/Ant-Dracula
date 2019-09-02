@@ -1,20 +1,15 @@
-![](Art/logo.png)
+# Ant-Dracula-Purple
 
 ![](Art/Dracula.png)
 
-#### Installation
-
-Extract the zip file to the themes directory i.e. `/usr/share/themes/` or `~/.themes/` (create it if necessary).
-
-To set the theme in Gnome, run the following commands in Terminal,
-
-```
+## Install
+```sh
+git clone https://github.com/mateus4k/Ant-Dracula-Purple/
+mv Ant-Dracula-Purple ~/.themes
 gsettings set org.gnome.desktop.interface gtk-theme "Ant-Dracula-Purple"
-gsettings set org.gnome.desktop.wm.preferences theme "Ant-Dracula-Purple"
+gsettings set org.gnome.desktop.wm.preferences theme "Ant-Dracula-Purple
 ```
+Remember to create the _.themes_ folder inside your _home_ if not exists!
 
-or Change via distribution specific tool.
-
-### Note:
-
+## Note:
 - This theme is based on the [evopop-gtk-theme](https://github.com/solus-project/evopop-gtk-theme).
