@@ -19,7 +19,7 @@ $blue: #13b1d5;
 $slider: #7b7bbd;
 
 $selected_fg_color: #f8f8f2;
-$selected_bg_color: #ff79c6;
+$selected_bg_color: #bd93f9;
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: if($variant == 'light', transparentize(rgb(156, 156, 156),0.8), transparentize(#191A22, 0.1));
 $borders_edge: if($variant == 'light', transparentize(white, 0.8), transparentize(white, 0.9));
@@ -45,7 +45,7 @@ $success_color: if($variant == 'light', $cyan, darken($cyan,10%));
 $destructive_color: if($variant == 'light', darken($red,5%), darken($red,10%));
 $suggested_color: if($variant == 'light', $selected_bg_color, darken($selected_bg_color,10%));
 
-$osd_fg_color: #fefefe;
+$osd_fg_color: #f8f8f2;
 $osd_text_color: white;
 $osd_bg_color:  transparentize(#14171a, 0.2);
 $osd_insensitive_bg_color: transparentize(mix($osd_fg_color, opacify($osd_bg_color, 1), 10%), 0.5);
